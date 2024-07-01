@@ -1,49 +1,66 @@
+cl1p.net - The internet clipboard CL1P.NET V4. InfoLogin/Sign Up cl1p.net/blinkitclonecss7
+This cl1p will be deleted in in 30 days.Copy
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic Tables and Media</title>
 </head>
 <body>
-	<table>
-        <thead>
-            <tr>
-                <th>Roll Number</th>
-                <th>Name</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Alice</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Bob</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Charlie</td>
-            </tr>
-        </tbody>
+
+  <section>
+    <h2>Roll numbers and Names</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Roll Number</th>
+          <th>Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>John Doe</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jane Smith</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Michael Johnson</td>
+        </tr>
+      </tbody>
     </table>
-	<h1>List of medias</h1>
-    <ol>
-        <li>
-            First Item: 
-            <img src="https://picsum.photos/id/123/200/300" alt="Random image from Picsum" style="height:100px;width:100px; ">
-        </li>
-        <li>
-            Second Item: 
-            <video controls style="height:100px;width:200px; display:inline-block">
-                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-            </video>
-        </li>
-        <li>
-            Third Item: 
-            <audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg" height="300px" controls >
-            </audio>
-        </li>
-    </ol>
+  </section>
+
+
+  <h2>List of medias</h2>
+
+
+  <ol>
+    <li>
+      <p>Image: <img src="https://picsum.photos/id/123/200/300" alt="Random Image"></p>
+    </li>
+    <li>
+      <p>Video:
+        <video width="320" height="240" controls>
+          <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </p>
+    </li>
+    <li>
+      <p>Audio:
+        <audio controls>
+          <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+          Your browser does not support the audio tag.
+        </audio>
+      </p>
+    </li>
+  </ol>
+
 </body>
 </html>
+
